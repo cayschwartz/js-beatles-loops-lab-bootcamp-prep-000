@@ -10,7 +10,15 @@ function johnLennonFacts(facts){
   for(var i=0; i<facts.length; i++){
     facts[i]=`${facts[i]}!!!`
   }
-  console.log(facts)
   return facts
+}
+
+function iLoveTheBeatles(number){
+  var fangirl = []
+  do{
+    fangirl.push("I love the Beatles!")
+    number++
+  }
+  while(number<15)
 
 }
